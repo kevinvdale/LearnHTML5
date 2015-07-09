@@ -23,11 +23,13 @@ and open the template in the editor.
         var barbarian = new Hero("Barbarian","7","7","7");
         var elf = new Hero("Elf","9","9","9");
         
-        for (var x in dwarf){
+        var character = dwarf;
+    
+        document.write("<h3>"+character.name+" Hero Properties</h3>");
+        document.write("Armor: "+character.armor+" <br />");
+        document.write("Strength: "+character.strength+" <br />");
+        document.write("Attack: "+character.attack+" <br />");
         
-        document.write(x + ":" + dwarf[x] + "<br />");
-        
-        }
         </script>
     
 

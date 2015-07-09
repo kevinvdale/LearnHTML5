@@ -11,19 +11,20 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script>
 
-        var dwarf = new Object();
+        var dwarf = {
         
-        dwarf.strength = "7";
-        dwarf.armor = "8";
-        dwarf.attack = "6";
-        dwarf.show_properties = function ()
+        strength: "7",
+        armor: "8",
+        attack: "6",
+        show_properties: function ()
         {
             
             document.write( "hero strenght: "+dwarf.strength+"<br />"+
                             "hero armor: "+dwarf.armor+"<br />"+
                             "hero attack: "+dwarf.attack+"<br />"
             );
-        };
+        }
+        }
         
         dwarf.show_properties();
         
