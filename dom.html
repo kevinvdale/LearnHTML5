@@ -9,6 +9,9 @@ and open the template in the editor.
         <title>javascript</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
     </head>
     <body>
         <h1>Title - News</h1>
@@ -16,17 +19,20 @@ and open the template in the editor.
             These are todays news.
         </h2>
         <div id="news1">
-           Todays News - Nothing special
+            Todays News - Nothing special
         </div>
         <br />
-        
         <script>
-        var parent = document.childNodes[2].childNodes[2].childNodes[5];
-        
-        window.alert(parent.innerHTML);    
+
+            //var fe = "Hello";
+
+            var fe = document.getElementById("news1").innerHTML;
+
+            window.alert(fe);
+
         </script>
-        
         <br />
         <div id="2"> This is just a place holder</div>
     </body>
 </html>
+
