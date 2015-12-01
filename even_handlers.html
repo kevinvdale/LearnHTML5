@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>javascript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style></style>
+        <script>
+            
+        function hello(){
+            alert("Hi this works");
+        }
+        
+        </script>
+    </head>
+    <body>
+       
+        <!--<input type="button" value="click me" onclick="alert('Hello this works');">
+            -->
+            
+            <form>
+                
+                <input type="button" value="click me" id="testing">
+                
+            </form>
+      
+            <script>
+                
+                var button_test = document.getElementById("testing");
+                button_test.onclick = function()
+                {
+                    alert("it works this way too");
+                    
+                }
+                document.write("  <br /> This is just a place holder");
+                
+            </script>
+            
+    </body>
+</html>
